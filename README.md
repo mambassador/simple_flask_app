@@ -4,12 +4,16 @@ This repository contains a simple Flask application that provides a couple of sm
 ### Features
 #### 1. Displaying contents of the requirements.txt file
   - Formatted content is ready to copy into your requirements.txt file
+  - URI: http://127.0.0.1:5000/requirements/
 #### 2. Generating 100 random users
   - Mock user profiles data is ready to copy to your collection
+  - URI: http://127.0.0.1:5000/generate-users/
 #### 3. Calculating average height and weight from a CSV file
   - The mean of height and wight data from csv file converted to metric units
+  - URI: http://127.0.0.1:5000/mean/
 #### 4. Getting the number of astronauts at the moment
   - The informational message wraps the total number of astronauts 
+  - URI: http://127.0.0.1:5000/space
 
 ### Usage
 
@@ -19,3 +23,5 @@ This repository contains a simple Flask application that provides a couple of sm
 4. Install dependencies by command: "pip install -r requirements.txt"
 5. Run the Flask application by command "flask --app main run"
 6. Switch to endpoints to use results
+
+#### Used Python 3.10.6
